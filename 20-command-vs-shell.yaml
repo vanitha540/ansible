@@ -10,6 +10,4 @@
     ansible.builtin.shell: ps -ef | grep ssh
     register: output
 
-  - name: check the process
-    ansible.builtin.command: ps -ef | grep ssh
-    register: output  
+ 
